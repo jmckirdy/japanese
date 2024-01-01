@@ -1,0 +1,60 @@
+body {
+    background-color: #fafafa;
+
+    /* dark-mode */
+    /* background-color: #2a2438; */
+}
+
+/* Diacritics " thing */
+.diac {
+    color: red;
+}
+
+p {
+    color: black;
+    /* color: #f2f2f2; */
+}
+
+#contract {
+    background-color: #ffe9e3;
+    color: black;
+}
+
+
+
+
+
+/* mint Green-faded Orange */
+.first-color { 
+	background: #66bfbf; 
+}
+	
+.second-color { 
+	background: #eaf6f6; 
+}
+
+.third-color { 
+	background: #fcfefe; 
+}
+
+.fourth-color { 
+	background: #f76b8a; 
+}
+
+
+/* Purple */
+.first-color { 
+	background: #fafafa; 
+}
+	
+.second-color { 
+	background: #ffe9e3; 
+}
+
+.third-color { 
+	background: #c4c1e0; 
+}
+
+.fourth-color { 
+	background: #7c73e6; 
+}

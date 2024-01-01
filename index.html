@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Japanese Scripts</title>
+    <!-- HIRAGANA & KATAKANA CHARTS FOR ENGLISH SPEAKER (LAID OUT LEFT TO RIGHT) -->
+</head>
+<body>
+
+    <h1>Japanese Characters & Typing Practice</h1>
+    <p><a href="index.html">Hiragana</a> | <a href="katakana.html">Katakana</a> </p>
+
+    <p><b>Upper section:</b> basic hiragana symbols and sounds with diactritical columns in <span class="diac">red</span> and contracted sounds in <span id="contract">salmon</span> <br>
+        <b>Middle section:</b> hiragana with added dakuten
+        <font size="6" color="red"> ゛</font> and handakuten<font size="6" color="red"> ゜</font><br>
+        <b>Lower section:</b> hiragana contracted sounds
+    </p>
+
+    <script>
+        let saying = [];
+    </script>
+
+    <h2>Basic Hiragana</h2>
+    <p>The hiragana aesthetic is <i>swoopy</i> and <i>cursive-like</i>.</p>
+
+    <table border="0" cellpadding="1" cellspacing="1">
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40">
+            <div align="center">あ<br>(a)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">か<br>(ka)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">さ<br>(sa)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">た<br>(ta)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">な<br>(na)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">は<br>(ha)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ま<br>(ma)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">や<br>(ya)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ら<br>(ra)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">わ<br>(wa)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ん<br>(nn)</div>
+        </td>
+    </tr>
+
+    <!-- New Row - Starting with 'i', 'ki', 'shi', 'chi', etc. -->
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40">
+            <div align="center">い<br>(i)</div>
+        </td>   
+
+        <td width="40" bgcolor="#ffe9e3" height="40" class="diac">
+            <div align="center">き<br>(ki)</div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40" class="diac">
+            <div align="center">し<br>(shi)</div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40" class="diac">
+            <div align="center">ち<br>(chi)</div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40">
+            <div align="center">に<br>(ni)</div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40" class="diac">
+            <div align="center">ひ<br>(hi)</div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40">
+            <div align="center">み<br>(mi)</div>
+        </td>
+
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+        <td width="40" bgcolor="#ffe9e3" height="40">
+            <div align="center">り<br>(ri)</div>
+        </td>
+    </tr>
+    
+    <!-- Continue the pattern -->
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40">
+            <div align="center">う<br>(u)</div>
+        </td>   
+        <td width="40" height="40" class="diac">
+            <div align="center">く<br>(ku)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">す<br>(su)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">つ<br>(tsu)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ぬ<br>(nu)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ふ<br>(fu)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">む<br>(mu)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ゆ<br>(yu)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">る<br>(ru)</div>
+        </td>
+    </tr>
+
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40">
+            <div align="center">え<br>(e)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">け<br>(ke)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">せ<br>(se)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">て<br>(te)</div>
+        </td>
+        <td width="40" height="40">
+            <div align="center">ね<br>(ne)</div>
+        </td>  
+        <td width="40" height="40" class="diac">
+            <div align="center">へ<br>(he)</div>
+        </td>    
+        <td width="40" height="40">
+            <div align="center">め<br>(me)</div>
+        </td>   
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>        
+        <td width="40"  height="40">
+            <div align="center">れ<br>(re)</div>
+        </td>
+    </tr>
+
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40">
+        <div align="center">お<br>(o)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+        <div align="center">こ<br>(ko)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+        <div align="center">そ<br>(so)</div>
+        </td> 
+        <td width="40" height="40" class="diac">
+        <div align="center">と<br>(to)</div>
+        </td>  
+        <td width="40" height="40">
+        <div align="center">の<br>(no)</div>
+        </td> 
+        <td width="40" height="40" class="diac">
+        <div align="center">ほ<br>(ho)</div>
+        </td> 
+        <td width="40" height="40">
+        <div align="center">も<br>(mo)</div>
+        </td> 
+        <td width="40" height="40">
+        <div align="center">よ<br>(yo)</div>
+        </td>   
+        <td width="40" height="40">
+            <div align="center">ろ<br>(ro)</div>
+        </td>
+        <td width="40" height="40"> 
+            <div align="center">を<br>(wo)</div>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+<br>
+<h2>Dakuten & Handakuten</h2>
+
+<table border="0" cellpadding="1" cellspacing="1">
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40" bgcolor="#fafafa"><div align="center"></div></td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">が<br>(ga)</div>
+        </td>
+        
+        <td width="40" height="40" class="diac">
+            <div align="center">ざ<br>(za)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">だ<br>(da)</div>
+        </td>
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ば<br>(ba)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ぱ<br>(pa)</div>
+        </td>
+    </tr>
+
+
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40" bgcolor="#fafafa"><div align="center"></div></td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぎ<br>(gi)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">じ<br>(ji)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぢ<br>(ji)</div>
+        </td>
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">び<br>(bi)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ぴ<br>(pi)</div>
+        </td>
+    </tr>
+    
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40" bgcolor="#fafafa"><div align="center"></div></td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぐ<br>(gu)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ず<br>(zu)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">づ<br>(dzu)</div>
+        </td>
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぶ<br>(bu)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ぷ<br>(pu)</div>
+        </td>
+    </tr>
+
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40" bgcolor="#fafafa"><div align="center"></div></td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">げ<br>(ge)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぜ<br>(ze)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">で<br>(de)</div>
+        </td>
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">べ<br>(be)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ぺ<br>(pe)</div>
+        </td>
+    </tr>
+
+    <tr bgcolor="#eaf6f6">
+        <td width="40" height="40" bgcolor="#fafafa"><div align="center"></div></td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ご<br>(go)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぞ<br>(zo)</div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ど<br>(do)</div>
+        </td>
+
+        <td width="40" height="40" bgcolor="#fafafa">
+            <div align="center"></div>
+        </td>
+
+        <td width="40" height="40" class="diac">
+            <div align="center">ぼ<br>(bo)</div>
+        </td>
+        <td width="40" height="40" class="diac">
+            <div align="center">ぽ<br>(po)</div>
+        </td>
+    </tr>
+</table>
+<!-- <img src="dia2.PNG" alt="dakutenChart" width="290px"><br> -->
+
+
+
+
+
+
+
+<br>
+<!-- RYA/ LOWER TABLE START //////////////////////////////////////////////////  -->
+<h2>Contracted Sounds</h2>
+
+<table>
+    <tr bgcolor="#ffe9e3"> 
+      <td width="40" height="40"> 
+        <div align="center">きゃ<br>
+          (kya)</div>
+      </td>
+      <td width="40" height="40"> 
+        <div align="center">ぎゃ<br>
+          (gya)</div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">しゃ<br>
+          (sha)</div>
+      </td>
+      <td width="40" height="40"> 
+        <div align="center">じゃ<br>
+          (ja)</div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">ちゃ<br>
+          (cha)</div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">にゃ<br>
+          (nya) </div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">ひゃ<br>
+          (hya) </div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">びゃ<br>
+          (bya) </div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">ぴゃ<br>
+          (pya) </div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">みゃ<br>
+          (mya) </div>
+      </td>
+
+      <td width="40" height="40"> 
+        <div align="center">りゃ<br>
+          (rya)</div>
+      </td>
+    </tr>
+
+
+    <tr bgcolor="#ffe9e3"> 
+        <td width="40" height="40"> 
+            <div align="center">きゅ<br>(kyu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ぎゅ<br>(gyu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">しゅ<br>(shu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">じゅ<br>(ju)</div>
+        </td>
+        
+        <td width="40" height="40"> 
+            <div align="center">ちゅ<br>(chu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">にゅ<br>(nyu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ひゅ<br>(hyu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">びゅ<br>(byu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ぴゅ<br>(pyu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">みゅ<br>(myu)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">りゅ<br>(ryu)</div>
+        </td>
+    </tr>
+
+
+    <tr bgcolor="#ffe9e3"> 
+
+        <td width="40" height="40"> 
+            <div align="center">きょ<br>(kyo)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ぎょ<br>(gyo)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">しょ<br>
+              (sho)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">じょ<br>
+              (jo) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ちょ<br>
+              (cho) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">にょ<br>
+              (nyo) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ひょ<br>
+              (hyo)</div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">びょ<br>
+              (byo) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">ぴょ<br>
+              (pyo) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">みょ<br>
+              (myo) </div>
+        </td>
+
+        <td width="40" height="40"> 
+            <div align="center">りょ<br>
+            (ryo) </div>
+        </td>
+    </tr>
+</table>
+<small>(Hiragana (i) row + (ya) column)</small>
+
+
+
+
+
+<br>
+<h2>Little Tsu</h2>
+<ul>
+  <li>A double consonant is represented with the small っ. A small っ is silent but makes the prior consonent be timed for two moras instead of one. eg:<br>
+    <table width="38%" border="0">
+      <tr> 
+        <td width="8%"></td>
+        <td width="92%">みっか&nbsp;&nbsp;(mikka)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[mi] + [silent] + [ka]</td>
+      </tr>
+      <tr> 
+        <td width="8%"></td>
+        <td width="92%">みか&nbsp;(mika)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[mi] + [ka]</td>
+      </tr>
+      <tr> 
+        <td width="8%"></td>
+        <td width="92%">みつか&nbsp;(mitsuka)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[mi] + [tsu] + [ka]</td>
+      </tr>
+
+    </table>
+</ul>
+<hr>
+
+<a href="mailto:johnmckirdy77@gmail.com">
+    <font size="3">Contact Us</font></a>
+    <font size="3"> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; &copy; JM Dev 2024 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <font size="1">Site by: Driven Web Design</font>
+    <!-- <?php echo date("Y"); ?> -->
+
+</body>
+</html>
